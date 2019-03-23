@@ -1,0 +1,7 @@
+{
+    "appId": "a8107f07",
+    "appKey": "3f9dc52e93f863110b19120b201aee9d",
+    "departureAirportCode": "SVO",
+    "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/from/SVO/departing",
+    "codeType": "IATA"
+}

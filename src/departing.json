@@ -1,0 +1,1194 @@
+{
+    "request": {
+        "airport": {
+            "requestedCode": "SVO",
+            "fsCode": "SVO"
+        },
+        "codeType": {
+            "requested": "IATA",
+            "interpreted": "IATA"
+        },
+        "departing": true,
+        "date": {
+            "year": "2019",
+            "month": "3",
+            "day": "23",
+            "interpreted": "2019-03-23"
+        },
+        "hourOfDay": {
+            "requested": "13",
+            "interpreted": 13
+        },
+        "url": "https: //api.flightstats.com/flex/schedules/rest/v1/json/from/SVO/departing/2019/3/23/13"
+    },
+    "scheduledFlights": [
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "1124",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "AER",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:40:00.000",
+            "arrivalTime": "2019-03-23T16:10:00.000",
+            "flightEquipmentIataCode": "32B",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "JU",
+                    "flightNumber": "8146",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [
+                        "G"
+                    ],
+                    "referenceCode": 2317137
+                }
+            ],
+            "referenceCode": "806-3590890--"
+        },
+        {
+            "carrierFsCode": "JU",
+            "flightNumber": "8146",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "AER",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:40:00.000",
+            "arrivalTime": "2019-03-23T16:10:00.000",
+            "flightEquipmentIataCode": "32B",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [
+                "G"
+            ],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "1124",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "F",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3590890--2317137"
+        },
+        {
+            "carrierFsCode": "KC",
+            "flightNumber": "276",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "ALA",
+            "stops": 0,
+            "departureTerminal": "E",
+            "departureTime": "2019-03-23T13:35:00.000",
+            "arrivalTime": "2019-03-23T21:15:00.000",
+            "flightEquipmentIataCode": "320",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-2333071--"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "2514",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "BCN",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:25:00.000",
+            "arrivalTime": "2019-03-23T16:10:00.000",
+            "flightEquipmentIataCode": "32B",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "UX",
+                    "flightNumber": "3245",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "R",
+                        "F",
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [],
+                    "referenceCode": 4168729
+                }
+            ],
+            "referenceCode": "806-3591059--"
+        },
+        {
+            "carrierFsCode": "UX",
+            "flightNumber": "3245",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "BCN",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:25:00.000",
+            "arrivalTime": "2019-03-23T16:10:00.000",
+            "flightEquipmentIataCode": "32B",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "2514",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3591059--4168729"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "2462",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "CDG",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "2C",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T15:00:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "AF",
+                    "flightNumber": "4855",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "R",
+                        "F",
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [],
+                    "referenceCode": 716372
+                }
+            ],
+            "referenceCode": "806-3591281--"
+        },
+        {
+            "carrierFsCode": "AF",
+            "flightNumber": "4855",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "CDG",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "2C",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T15:00:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "2462",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3591281--716372"
+        },
+        {
+            "carrierFsCode": "N4*",
+            "flightNumber": "277",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "EVN",
+            "stops": 0,
+            "departureTerminal": "F",
+            "departureTime": "2019-03-23T13:30:00.000",
+            "arrivalTime": "2019-03-23T17:20:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-2934564--"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "1226",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "GOJ",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:20:00.000",
+            "arrivalTime": "2019-03-23T14:35:00.000",
+            "flightEquipmentIataCode": "SU9",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-3591534--"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "2384",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "GVA",
+            "stops": 0,
+            "departureTerminal": "F",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T14:55:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "CZ",
+                    "flightNumber": "4303",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [],
+                    "referenceCode": 1412772
+                }
+            ],
+            "referenceCode": "806-3591569--"
+        },
+        {
+            "carrierFsCode": "CZ",
+            "flightNumber": "4303",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "GVA",
+            "stops": 0,
+            "departureTerminal": "F",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T14:55:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "2384",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3591569--1412772"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "1004",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "KGD",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:25:00.000",
+            "arrivalTime": "2019-03-23T14:30:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-3591814--"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "2074",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LCA",
+            "stops": 0,
+            "departureTerminal": "E",
+            "departureTime": "2019-03-23T13:50:00.000",
+            "arrivalTime": "2019-03-23T16:50:00.000",
+            "flightEquipmentIataCode": "320",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-3592025--"
+        },
+        {
+            "carrierFsCode": "IK*",
+            "flightNumber": "167",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T14:20:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "N4*",
+                    "flightNumber": "167",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "Y"
+                    ],
+                    "trafficRestrictions": [],
+                    "referenceCode": 2934722
+                }
+            ],
+            "referenceCode": "806-1914300--"
+        },
+        {
+            "carrierFsCode": "N4*",
+            "flightNumber": "167",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:05:00.000",
+            "arrivalTime": "2019-03-23T14:20:00.000",
+            "flightEquipmentIataCode": "E90",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "operator": {
+                "carrierFsCode": "IK*",
+                "flightNumber": "167",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-1914300--2934722"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "18",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "B",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:10:00.000",
+            "arrivalTime": "2019-03-23T14:35:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "JU",
+                    "flightNumber": "7040",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [
+                        "G"
+                    ],
+                    "referenceCode": 2317410
+                }
+            ],
+            "referenceCode": "806-3592058--"
+        },
+        {
+            "carrierFsCode": "JU",
+            "flightNumber": "7040",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "B",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:10:00.000",
+            "arrivalTime": "2019-03-23T14:35:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [
+                "G"
+            ],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "18",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "F",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3592058--2317410"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "38",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "B",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:30:00.000",
+            "arrivalTime": "2019-03-23T14:50:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "JU",
+                    "flightNumber": "7056",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [
+                        "G"
+                    ],
+                    "referenceCode": 2317403
+                }
+            ],
+            "referenceCode": "806-3592097--"
+        },
+        {
+            "carrierFsCode": "JU",
+            "flightNumber": "7056",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LED",
+            "stops": 0,
+            "departureTerminal": "B",
+            "arrivalTerminal": "1",
+            "departureTime": "2019-03-23T13:30:00.000",
+            "arrivalTime": "2019-03-23T14:50:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [
+                "G"
+            ],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "38",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "F",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3592097--2317403"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "2570",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "LHR",
+            "stops": 0,
+            "departureTerminal": "D",
+            "arrivalTerminal": "4",
+            "departureTime": "2019-03-23T13:40:00.000",
+            "arrivalTime": "2019-03-23T15:00:00.000",
+            "flightEquipmentIataCode": "73H",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [],
+            "referenceCode": "806-3592149--"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "1312",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "MRV",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:35:00.000",
+            "arrivalTime": "2019-03-23T15:55:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "KL",
+                    "flightNumber": "2896",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "R",
+                        "F",
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [
+                        "G"
+                    ],
+                    "referenceCode": 2575079
+                }
+            ],
+            "referenceCode": "806-3592277--"
+        },
+        {
+            "carrierFsCode": "KL",
+            "flightNumber": "2896",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "MRV",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:35:00.000",
+            "arrivalTime": "2019-03-23T15:55:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [
+                "G"
+            ],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "1312",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "F",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3592277--2575079"
+        },
+        {
+            "carrierFsCode": "SU",
+            "flightNumber": "1402",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "SVX",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:00:00.000",
+            "arrivalTime": "2019-03-23T17:30:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": false,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "R",
+                "F",
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [],
+            "codeshares": [
+                {
+                    "carrierFsCode": "JU",
+                    "flightNumber": "7049",
+                    "serviceType": "J",
+                    "serviceClasses": [
+                        "J",
+                        "Y"
+                    ],
+                    "trafficRestrictions": [
+                        "G"
+                    ],
+                    "referenceCode": 11805403
+                }
+            ],
+            "referenceCode": "806-3592860--"
+        },
+        {
+            "carrierFsCode": "JU",
+            "flightNumber": "7049",
+            "departureAirportFsCode": "SVO",
+            "arrivalAirportFsCode": "SVX",
+            "stops": 0,
+            "departureTerminal": "B",
+            "departureTime": "2019-03-23T13:00:00.000",
+            "arrivalTime": "2019-03-23T17:30:00.000",
+            "flightEquipmentIataCode": "32A",
+            "isCodeshare": true,
+            "isWetlease": false,
+            "serviceType": "J",
+            "serviceClasses": [
+                "J",
+                "Y"
+            ],
+            "trafficRestrictions": [
+                "G"
+            ],
+            "operator": {
+                "carrierFsCode": "SU",
+                "flightNumber": "1402",
+                "serviceType": "J",
+                "serviceClasses": [
+                    "R",
+                    "F",
+                    "J",
+                    "Y"
+                ],
+                "trafficRestrictions": []
+            },
+            "codeshares": [],
+            "referenceCode": "806-3592860--11805403"
+        }
+    ],
+    "appendix": {
+        "airlines": [
+            {
+                "fs": "KL",
+                "iata": "KL",
+                "icao": "KLM",
+                "name": "KLM",
+                "phoneNumber": "1-800-447-4747",
+                "active": true
+            },
+            {
+                "fs": "SU",
+                "iata": "SU",
+                "icao": "AFL",
+                "name": "Aeroflot",
+                "phoneNumber": "+7 495 223-55-55",
+                "active": true
+            },
+            {
+                "fs": "UX",
+                "iata": "UX",
+                "icao": "AEA",
+                "name": "Air Europa",
+                "phoneNumber": "1.800.238.7672",
+                "active": true
+            },
+            {
+                "fs": "AF",
+                "iata": "AF",
+                "icao": "AFR",
+                "name": "Air France",
+                "phoneNumber": "1-800-237-2747",
+                "active": true
+            },
+            {
+                "fs": "N4*",
+                "iata": "N4",
+                "icao": "NWS",
+                "name": "Nordwind Airlines",
+                "active": true
+            },
+            {
+                "fs": "IK*",
+                "iata": "EO",
+                "icao": "KAR",
+                "name": "Pegas Fly",
+                "active": true
+            },
+            {
+                "fs": "JU",
+                "iata": "JU",
+                "icao": "ASL",
+                "name": "Air Serbia",
+                "active": true
+            },
+            {
+                "fs": "CZ",
+                "iata": "CZ",
+                "icao": "CSN",
+                "name": "China Southern Airlines",
+                "phoneNumber": "+86 20 95539",
+                "active": true
+            },
+            {
+                "fs": "KC",
+                "iata": "KC",
+                "icao": "KZR",
+                "name": "Air Astana",
+                "active": true
+            }
+        ],
+        "airports": [
+            {
+                "fs": "GOJ",
+                "iata": "GOJ",
+                "icao": "UWGG",
+                "name": "Nizhny Novgorod International Airport",
+                "city": "Nizhniy Novgorod",
+                "cityCode": "GOJ",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "localTime": "2019-03-23T12:52:28.419",
+                "utcOffsetHours": 3.0,
+                "latitude": 56.218611,
+                "longitude": 43.789766,
+                "elevationFeet": 256,
+                "classification": 4,
+                "active": true
+            },
+            {
+                "fs": "CDG",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "name": "Charles de Gaulle Airport",
+                "street1": "95711, Roissy Charles de Gaulle",
+                "city": "Paris",
+                "cityCode": "PAR",
+                "countryCode": "FR",
+                "countryName": "France",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Paris",
+                "localTime": "2019-03-23T10:52:28.419",
+                "utcOffsetHours": 1.0,
+                "latitude": 49.003196,
+                "longitude": 2.567023,
+                "elevationFeet": 387,
+                "classification": 1,
+                "active": true
+            },
+            {
+                "fs": "KGD",
+                "iata": "KGD",
+                "icao": "UMKK",
+                "name": "Khrabrovo Airport",
+                "city": "Kaliningrad",
+                "cityCode": "KGD",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Kaliningrad",
+                "localTime": "2019-03-23T11:52:28.419",
+                "utcOffsetHours": 2.0,
+                "latitude": 54.882656,
+                "longitude": 20.586646,
+                "elevationFeet": 43,
+                "classification": 4,
+                "active": true
+            },
+            {
+                "fs": "LED",
+                "iata": "LED",
+                "icao": "ULLI",
+                "name": "Pulkovo Airport",
+                "city": "Saint Petersburg",
+                "cityCode": "LED",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "localTime": "2019-03-23T12:52:28.419",
+                "utcOffsetHours": 3.0,
+                "latitude": 59.799847,
+                "longitude": 30.270505,
+                "elevationFeet": 76,
+                "classification": 2,
+                "active": true
+            },
+            {
+                "fs": "LCA",
+                "iata": "LCA",
+                "icao": "LCLK",
+                "name": "Larnaca International Airport",
+                "city": "Larnaca",
+                "cityCode": "LCA",
+                "countryCode": "CY",
+                "countryName": "Cyprus",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Nicosia",
+                "localTime": "2019-03-23T11:52:28.419",
+                "utcOffsetHours": 2.0,
+                "latitude": 34.870871,
+                "longitude": 33.607975,
+                "elevationFeet": 8,
+                "classification": 3,
+                "active": true
+            },
+            {
+                "fs": "BCN",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "name": "Barcelona-El Prat Airport",
+                "city": "Barcelona",
+                "cityCode": "BCN",
+                "stateCode": "SP",
+                "countryCode": "ES",
+                "countryName": "Spain and Canary Islands",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Madrid",
+                "localTime": "2019-03-23T10:52:28.419",
+                "utcOffsetHours": 1.0,
+                "latitude": 41.303027,
+                "longitude": 2.07593,
+                "elevationFeet": 13,
+                "classification": 1,
+                "active": true
+            },
+            {
+                "fs": "SVO",
+                "iata": "SVO",
+                "icao": "UUEE",
+                "name": "Sheremetyevo International Airport",
+                "city": "Moscow",
+                "cityCode": "MOW",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "localTime": "2019-03-23T12:52:28.164",
+                "utcOffsetHours": 3.0,
+                "latitude": 55.966324,
+                "longitude": 37.416574,
+                "elevationFeet": 630,
+                "classification": 1,
+                "active": true
+            },
+            {
+                "fs": "AER",
+                "iata": "AER",
+                "icao": "URSS",
+                "name": "Sochi International Airport",
+                "city": "Adler/Sochi",
+                "cityCode": "AER",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "localTime": "2019-03-23T12:52:28.419",
+                "utcOffsetHours": 3.0,
+                "latitude": 43.44884,
+                "longitude": 39.941106,
+                "elevationFeet": 89,
+                "classification": 3,
+                "active": true
+            },
+            {
+                "fs": "MRV",
+                "iata": "MRV",
+                "icao": "URMM",
+                "name": "Mineralnye Vody Airport",
+                "city": "Mineralnye Vody",
+                "cityCode": "MRV",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Moscow",
+                "localTime": "2019-03-23T12:52:28.419",
+                "utcOffsetHours": 3.0,
+                "latitude": 44.218354,
+                "longitude": 43.088178,
+                "elevationFeet": 1080,
+                "classification": 3,
+                "active": true
+            },
+            {
+                "fs": "GVA",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "name": "Geneve Airport",
+                "city": "Geneva",
+                "cityCode": "GVA",
+                "countryCode": "CH",
+                "countryName": "Switzerland",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/Zurich",
+                "localTime": "2019-03-23T10:52:28.419",
+                "utcOffsetHours": 1.0,
+                "latitude": 46.229634,
+                "longitude": 6.105774,
+                "elevationFeet": 1411,
+                "classification": 2,
+                "active": true
+            },
+            {
+                "fs": "SVX",
+                "iata": "SVX",
+                "icao": "USSS",
+                "name": "Koltsovo International Airport",
+                "city": "Yekaterinburg",
+                "cityCode": "SVX",
+                "countryCode": "RU",
+                "countryName": "Russian Federation",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Asia/Yekaterinburg",
+                "localTime": "2019-03-23T14:52:28.419",
+                "utcOffsetHours": 5.0,
+                "latitude": 56.750335,
+                "longitude": 60.804312,
+                "elevationFeet": 764,
+                "classification": 2,
+                "active": true
+            },
+            {
+                "fs": "ALA",
+                "iata": "ALA",
+                "icao": "UAAA",
+                "name": "Almaty Airport",
+                "city": "Almaty",
+                "cityCode": "ALA",
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Almaty",
+                "localTime": "2019-03-23T15:52:28.419",
+                "utcOffsetHours": 6.0,
+                "latitude": 43.346652,
+                "longitude": 77.011455,
+                "elevationFeet": 2234,
+                "classification": 3,
+                "active": true
+            },
+            {
+                "fs": "LHR",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "name": "London Heathrow Airport",
+                "city": "London",
+                "cityCode": "LON",
+                "stateCode": "EN",
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "regionName": "Europe",
+                "timeZoneRegionName": "Europe/London",
+                "localTime": "2019-03-23T09:52:28.419",
+                "utcOffsetHours": 0.0,
+                "latitude": 51.469603,
+                "longitude": -0.453566,
+                "elevationFeet": 80,
+                "classification": 1,
+                "active": true
+            },
+            {
+                "fs": "EVN",
+                "iata": "EVN",
+                "icao": "UDYZ",
+                "name": "Zvartnots International Airport",
+                "city": "Yerevan",
+                "cityCode": "EVN",
+                "countryCode": "AM",
+                "countryName": "Armenia",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Yerevan",
+                "localTime": "2019-03-23T13:52:28.419",
+                "utcOffsetHours": 4.0,
+                "latitude": 40.15272,
+                "longitude": 44.39805,
+                "elevationFeet": 2838,
+                "classification": 3,
+                "active": true
+            }
+        ],
+        "equipments": [
+            {
+                "iata": "32A",
+                "name": "Airbus A320 (sharklets)",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": false
+            },
+            {
+                "iata": "32B",
+                "name": "Airbus A321 (sharklets)",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": false
+            },
+            {
+                "iata": "73H",
+                "name": "Boeing 737-800 (winglets) Passenger/BBJ2",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": false
+            },
+            {
+                "iata": "320",
+                "name": "Airbus A320",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": false
+            },
+            {
+                "iata": "SU9",
+                "name": "Sukhoi Superjet 100-95",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": false
+            },
+            {
+                "iata": "E90",
+                "name": "Embraer 190",
+                "turboProp": false,
+                "jet": true,
+                "widebody": false,
+                "regional": true
+            }
+        ]
+    }
+}
